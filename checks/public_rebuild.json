@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "counts": {
+    "strict": {
+      "records": 47864,
+      "computed": 25061
+    },
+    "retained": {
+      "records": 78643,
+      "computed": 41098
+    },
+    "excluded_records": 30779
+  },
+  "source": "Released retained table and frozen parameters only"
+}

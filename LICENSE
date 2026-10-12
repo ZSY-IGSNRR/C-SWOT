@@ -1,0 +1,25 @@
+Component licenses for SWOT public release, version 1.1.0
+
+Original study software: MIT, full text in LICENSE_CODE.txt.
+Scope: study-authored code/, tools/, .github/workflows/ and executable viewer HTML/CSS/JavaScript,
+excluding third-party material and generated station-data/basemap payloads.
+Software copyright attribution: Shengyu Zou and the contributors identified
+in AUTHORS.md, subject to the verified authorship of the respective files.
+
+Original derived data and documentation: Creative Commons Attribution 4.0
+International (CC BY 4.0), as designated in LICENSE_DATA.txt.
+Scope: original derived estimates, released frozen station parameters,
+study-authored QC annotations, generated station-data payloads, documentation,
+and original explanatory metadata, to the extent the creators hold those rights.
+
+Third-party materials retain their source terms. The license designation above
+does not relicense upstream satellite or river-network products.
+Natural Earth physical-land data are public domain; see
+metadata/NATURAL_EARTH_NOTICE.txt and metadata/map_source.json.
+
+No license is granted to restricted measured discharge or observation-level
+ground comparisons; these materials are excluded from this public package.
+
+Author and rights-verification scope: AUTHORS.md.
+Citation and attribution examples: CITATION.md and docs/RIGHTS_AND_USAGE_en.md.
+This local draft has not been publicly uploaded.

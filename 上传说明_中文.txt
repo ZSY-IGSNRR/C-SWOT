@@ -1,0 +1,15 @@
+GitHub 本地发布草稿，2026-10-12 准备，尚未上传。
+
+1. 解压整个目录，双击 index.html 查看中英文网页、地图和两种QC版本。
+   默认显示有Q估算的542站，勾选后显示全部1,143站。
+2. 阅读 README.md 与 docs/GITHUB_RELEASE_zh.md 后再操作上传。
+   数据总表有文件超过GitHub网页上传25MiB限制，推荐GitHub Desktop。
+3. 发布前核对 AUTHORS.md 中姓名、实际权利人和适用单位授权。
+   代码MIT；原创派生数据与说明CC BY 4.0，均允许商业使用。
+4. 公开包不包含实测Q、地面逐观测配对与误差数据、私有论文或凭证。
+5. .github/workflows/pages.yml 仅手动触发。当前没有创建远程仓库、
+   GitHub Release、GitHub Pages或Zenodo记录。
+6. 真实仓库URL、DOI和发布日期应在实际生成后填入CITATION等文件。
+   更新后重新生成SHA256SUMS.txt和ZIP；不要覆盖已发布的版本标签。
+7. ZIP用于离线分发或作为Release附件；源码仓库应导入解压后的内容，
+   原私有成果、原Zenodo准备包与原网页均维持原样。

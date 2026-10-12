@@ -1,0 +1,12 @@
+﻿label_code,retained_records,strict_records
+quality_anomaly,11547,0
+wse_anomaly,8538,0
+width_anomaly,13400,2293
+slope_anomaly,10886,807
+slope_fallback,28646,4977
+slope_prior,0,0
+hydraulic_extrapolation,11531,6162
+area_floor,1137,639
+qc_unknown,40,0
+invalid_input,0,0
+no_model,37545,22803

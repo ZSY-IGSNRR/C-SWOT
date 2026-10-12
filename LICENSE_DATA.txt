@@ -1,0 +1,27 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+Canonical license: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Copyright attribution (original study materials):
+Copyright (c) 2026 Shengyu Zou, Zhenwu Xu, Jingyi Tian, Jiao Wang, Zixuan Tang, Xian Wang, Zhen Huang, Haoshan Wei, Ping Miao, Yongqiang Zhang.
+Author order and verification scope are documented in AUTHORS.md.
+
+Original study-authored documentation, derived station-overpass estimates,
+released frozen station parameters, original QC annotations, explanatory
+metadata and generated station-data viewer payloads are licensed under
+CC BY 4.0 to the extent their respective creators hold the relevant rights.
+For reuse, give appropriate credit, retain the supplied license/source
+information and indicate modifications. Commercial reuse is permitted.
+The license grants no endorsement by the original authors.
+
+Upstream SWOT, Hydrocron and SWORD materials retain their own terms; this
+notice does not grant exclusive ownership of satellite inputs or facts.
+Natural Earth physical-land data are public domain.
+See metadata/source_products.csv and metadata/NATURAL_EARTH_NOTICE.txt.
+
+Restricted measured discharge and observation-level ground comparisons are
+excluded. This license grants no rights to those excluded materials.
+Study software is separately licensed under MIT in LICENSE_CODE.txt.
+
+Recommended citation: CITATION.cff, CITATION.bib and CITATION.md.
+This is a local release draft; no public release date or DOI is assigned.

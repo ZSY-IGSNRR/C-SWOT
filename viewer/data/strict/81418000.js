@@ -1,0 +1,1 @@
+window.SWOT_STATION_DATA={"station_id": "81418000", "name": "防城", "variant": "strict", "rows": [], "model": {}, "counts": {"rows": 0, "computed": 0, "suspect": 0, "out_of_domain": 0, "excluded": 10}};

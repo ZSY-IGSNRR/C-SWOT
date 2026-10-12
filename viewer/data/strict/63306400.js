@@ -1,0 +1,1 @@
+window.SWOT_STATION_DATA={"station_id": "63306400", "name": "临平(下)", "variant": "strict", "rows": [], "model": {}, "counts": {"rows": 0, "computed": 0, "suspect": 0, "out_of_domain": 0, "excluded": 36}};

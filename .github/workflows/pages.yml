@@ -1,0 +1,36 @@
+name: Publish bilingual viewer (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Validate public release before staging
+        run: python tools/verify_public_release.py --package . --allow-git-worktree
+      - uses: actions/configure-pages@v5
+      - name: Stage approved public website files
+        run: python tools/build_site.py --output "$RUNNER_TEMP/swot-site"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/swot-site
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4

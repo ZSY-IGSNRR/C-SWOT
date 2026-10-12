@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "strict_sample": {
+    "station": "80511500",
+    "rows": 100,
+    "computed": 100,
+    "excluded": 35
+  },
+  "retained_sample_records": 135,
+  "map_coordinate_query_passed": true,
+  "language_switch_preserves_station_and_policy": true,
+  "downloaded_public_csv_checked": true,
+  "short_labels_checked": true,
+  "all_four_variables_checked": true,
+  "page_errors": [],
+  "browser": "isolated Chrome headless; file://; external requests blocked"
+}

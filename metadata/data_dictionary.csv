@@ -1,0 +1,40 @@
+﻿field,unit,definition
+station_id,,Station identifier.
+name,,Station name retained from the source archive.
+row_id,,Unique station/source-row identifier; not a gauge-pair identifier.
+source_row_id,,Zero-based station-archive row number before either QC policy.
+datetime,UTC,Satellite overpass time.
+longitude,degrees east,Archived station longitude; no new positioning.
+latitude,degrees north,Archived station latitude; no new positioning.
+cycle_id,,SWOT cycle identifier.
+pass_id,,SWOT pass identifier.
+first_node_id,,First archived node ID; actual contributors listed separately.
+node_record_count,count,Number of contributing archived node records.
+unique_node_count,count,Unique contributing node count.
+WSE,m,"Water level in the study datum already used by the v15 frozen model, not unadjusted official geodetic WSE."
+width_observed,m,"Archived observed width, retained for satellite-input inspection."
+slope_observed,m/m,Archived input slope; may already be replaced from a different overpass.
+slope_source_time_utc,UTC,Archived source time of the supplied reach slope.
+slope_time_difference_days,days,Archived absolute slope-source time offset.
+strict_eligible,boolean,Complete QC evidence and no overall/Hampel failure in any applicable satellite screen.
+source_qc_complete,boolean,Complete mapping of actual participant nodes and original same-overpass reach QC.
+same_overpass_reach_found,boolean,"Original reach evidence exists for each contributing reach, same UTC day/cycle/pass."
+participating_node_ids,,Actual contributor IDs joined with |.
+same_overpass_reach_ids,,Original same-overpass reach IDs joined with |.
+overall_bad,boolean,At least one original contributor/same-overpass reach overall quality code fails codes 0 or 1.
+wse_hampel,boolean,"Union of original node/reach, archived station and full-series WSE Hampel flags."
+width_hampel,boolean,"Union of original node/reach, archived station and full-series width Hampel flags."
+slope_hampel,boolean,Union of original reach slope and full-series log-slope Hampel flags.
+Q_estimated,m3/s,"Frozen calibrated Manning-model estimate, not measured discharge."
+width_used,m,Frozen calibration width curve interpolated at WSE; endpoint width held outside the range.
+slope_used,m/m,"Archived positive input slope, or saved positive station reference when missing/nonpositive."
+area,m2,Effective cross-sectional area from frozen geometry.
+area_position,,Native area branch relative to WSE0 and calibration range.
+slope_was_repaired,boolean,Saved model slope reference was required.
+prediction_status,,"computed, no_model or invalid_inputs."
+model_available,boolean,A saved v15 full-record model is available for this station.
+WSE_domain,,"below, within, above or unknown relative to frozen calibration range."
+is_out_of_domain,boolean,WSE lies outside the frozen calibration range.
+labels,,Short label codes joined with |; defined in flag_definitions.csv.
+is_suspect,boolean,Satellite/calculation review warning; domain or no-model alone is informational.
+exclusion_flags,,"Strict exclusion reasons derived exclusively from actual QC gates, joined with |."

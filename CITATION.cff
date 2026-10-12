@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "Please cite this versioned dataset and its software when using the release; cite the associated manuscript where relevant. This is a local release draft. Actual repository and deposit identifiers will be added after publication."
+type: dataset
+version: "1.1.0"
+title: "SWOT satellite discharge estimates with strict and retained quality-control variants accompanying manuscript v15"
+authors:
+  - family-names: "Zou"
+    given-names: "Shengyu"
+  - family-names: "Xu"
+    given-names: "Zhenwu"
+  - family-names: "Tian"
+    given-names: "Jingyi"
+  - family-names: "Wang"
+    given-names: "Jiao"
+  - family-names: "Tang"
+    given-names: "Zixuan"
+  - family-names: "Wang"
+    given-names: "Xian"
+  - family-names: "Huang"
+    given-names: "Zhen"
+  - family-names: "Wei"
+    given-names: "Haoshan"
+  - family-names: "Miao"
+    given-names: "Ping"
+  - family-names: "Zhang"
+    given-names: "Yongqiang"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Bilingual station viewer, frozen v15 station-model discharge estimates, and public inference/QC code for strict and retained satellite quality-control policies. Measured discharge, gauge pairing information and observation-level ground errors are excluded. Scientific version 1.1.0; local GitHub release preparation only."
+keywords:
+  - SWOT
+  - river discharge
+  - satellite quality control
+  - Manning equation
+  - China
+references:
+  - type: unpublished
+    title: "Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations"
+    authors:
+      - family-names: "Zou"
+        given-names: "Shengyu"
+      - family-names: "Xu"
+        given-names: "Zhenwu"
+      - family-names: "Tian"
+        given-names: "Jingyi"
+      - family-names: "Wang"
+        given-names: "Jiao"
+      - family-names: "Tang"
+        given-names: "Zixuan"
+      - family-names: "Wang"
+        given-names: "Xian"
+      - family-names: "Huang"
+        given-names: "Zhen"
+      - family-names: "Wei"
+        given-names: "Haoshan"
+      - family-names: "Miao"
+        given-names: "Ping"
+      - family-names: "Zhang"
+        given-names: "Yongqiang"
+    notes: "Associated manuscript, version v15; no journal publication or DOI is asserted. The manuscript is not included in this repository."

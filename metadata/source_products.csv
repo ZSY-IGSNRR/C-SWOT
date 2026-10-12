@@ -1,0 +1,4 @@
+product,version,doi,redistributed_in_this_release,role
+Hydrocron,1.6.4,10.5281/zenodo.15831782,derived fields or references only,SWOT observation access service
+SWOT RiverSP,D,10.5067/SWOT-RIVERSP-D,derived fields or references only,SWOT WSE width and slope inputs
+SWORD,17b,10.5281/zenodo.15299138,derived fields or references only,Local river network reference

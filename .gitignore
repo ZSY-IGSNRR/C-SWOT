@@ -1,0 +1,31 @@
+# Local environments, generated output and editor files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+node_modules/
+_site/
+rebuilt_variants/
+*_reproduced.csv
+.DS_Store
+Thumbs.db
+# Private source trees and accidental research attachments
+private/
+raw/
+results/
+postprocess_results/
+manuscript/
+*.docx
+*.xlsx
+*.xls
+*.pkl
+*.parquet
+*.zip
+*.zip.sha256
+# Credentials
+.env
+.env.*
+*.pem
+*.key

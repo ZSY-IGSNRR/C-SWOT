@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "SWOT satellite discharge estimates with strict and retained quality-control variants accompanying manuscript v15",
+    "upload_type": "dataset",
+    "version": "1.1.0",
+    "creators": [
+      {
+        "name": "Zou, Shengyu"
+      },
+      {
+        "name": "Xu, Zhenwu"
+      },
+      {
+        "name": "Tian, Jingyi"
+      },
+      {
+        "name": "Wang, Jiao"
+      },
+      {
+        "name": "Tang, Zixuan"
+      },
+      {
+        "name": "Wang, Xian"
+      },
+      {
+        "name": "Huang, Zhen"
+      },
+      {
+        "name": "Wei, Haoshan"
+      },
+      {
+        "name": "Miao, Ping"
+      },
+      {
+        "name": "Zhang, Yongqiang"
+      }
+    ],
+    "description": "Offline bilingual station map and frozen v15 station-model estimates under two satellite-only QC policies. Measured discharge and observation-level ground comparisons are excluded. Strict QC filters whole records before prediction; retained QC preserves all archived records and annotates quality concerns. Both preserve archived cross-date slope substitution and provide retrospective estimates. The dataset and original documentation use CC BY 4.0; software and viewer code are separately licensed under MIT. Author details follow the associated v15 manuscript. This is a local unpublished preparation; no repository URL or DOI has been assigned.",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "SWOT",
+      "river discharge",
+      "quality control",
+      "Manning",
+      "China"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5067/SWOT-RIVERSP-D",
+        "relation": "isDerivedFrom",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

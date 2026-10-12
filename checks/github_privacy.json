@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "scan_scope": "All CSV headers, JSON object keys, viewer JSON payload keys, exact public model/row schemas, CSV-viewer agreement, QC partitions, local-path and common credential patterns, and prohibited files. This audit does not establish legal rights or detect every possible secret/identifying value.",
+  "restricted_source_data_read": false,
+  "parameter_refits": 0,
+  "file_scan": {
+    "csv_headers_checked": 2295,
+    "json_files_checked": 559,
+    "payload_scripts_checked": 2288,
+    "files_checked": 5188,
+    "root_git_metadata_ignored": false
+  },
+  "data_consistency": {
+    "station_count": 1143,
+    "frozen_models": 542,
+    "variants": {
+      "strict": {
+        "rows": 47864,
+        "computed": 25061,
+        "stations_with_estimates": 542
+      },
+      "retained": {
+        "rows": 78643,
+        "computed": 41098,
+        "stations_with_estimates": 542
+      }
+    },
+    "excluded_records": 30779,
+    "station_payload_scripts_checked": 2287,
+    "csv_viewer_values_identical": true,
+    "strict_retained_common_rows_identical": true,
+    "excluded_table_has_no_prediction_fields": true,
+    "strict_quality_gate_passes": true
+  },
+  "unchanged_public_data_model_payload_files": 5119,
+  "standalone_replay": {
+    "strict": {
+      "rows": 47864,
+      "replayed_predictions": 25061,
+      "maximum_absolute_roundoff": 3.637978807091713e-12
+    },
+    "retained": {
+      "rows": 78643,
+      "replayed_predictions": 41098,
+      "maximum_absolute_roundoff": 2.9103830456733704e-11
+    },
+    "runtime": {
+      "python": "3.13.5",
+      "numpy": "2.3.1",
+      "pandas": "2.3.1"
+    }
+  },
+  "replay_evidence_scope": "Both complete public variant tables were replayed during preparation. The final audit reconfirmed unchanged byte hashes for all 5,119 released data/model/station-payload files. Public inference-core changes during finalization were limited to copyright/SPDX comments; no formulas or parameters changed. The final structural scan did not repeat that replay.",
+  "validator_adversarial_tests": {
+    "passed": true,
+    "cases_checked": 13,
+    "scope": "Isolated temporary fixtures: measured-Q fields, ground-pair metadata, training statistics, private paths, common credentials, prohibited files, root/nested Git metadata, and legitimate public satellite fields and explanatory prose."
+  }
+}

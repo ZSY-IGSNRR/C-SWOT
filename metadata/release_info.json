@@ -1,0 +1,42 @@
+{
+  "name": "SWOT v15 GitHub public release",
+  "version": "1.1.0",
+  "prepared_date": "2026-10-12",
+  "uploaded": false,
+  "repository_url": null,
+  "release_doi": null,
+  "release_date": null,
+  "source_package": "SWOT_v15_Two_QC_Public_v1.1.0_20261012",
+  "source_archive_sha256": "348c67c8c5045342144991bb7f9e9d71e9da41daeeae3cf9f4c229721a7dd9ef",
+  "model_refits": 0,
+  "code_license": "MIT",
+  "original_derived_data_and_documentation_license": "CC-BY-4.0",
+  "copyright_notice": "Copyright (c) 2026 Shengyu Zou and the contributors identified in AUTHORS.md.",
+  "author_names": [
+    "Shengyu Zou",
+    "Zhenwu Xu",
+    "Jingyi Tian",
+    "Jiao Wang",
+    "Zixuan Tang",
+    "Xian Wang",
+    "Zhen Huang",
+    "Haoshan Wei",
+    "Ping Miao",
+    "Yongqiang Zhang"
+  ],
+  "author_order_source": "Associated manuscript v15",
+  "unverified_author_metadata": [
+    "ORCID",
+    "affiliations",
+    "institutional rights ownership"
+  ],
+  "citation_files": [
+    "CITATION.cff",
+    "CITATION.bib",
+    "CITATION.md",
+    "AUTHORS.md"
+  ],
+  "pages_deployment": "workflow_dispatch only; no push-triggered deployment",
+  "privacy": "Only satellite inputs, frozen model parameters, derived estimates and satellite QC; measured discharge and ground comparisons are excluded.",
+  "title": "SWOT satellite discharge estimates with strict and retained quality-control variants accompanying manuscript v15"
+}

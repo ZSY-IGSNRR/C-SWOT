@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "prepared_date": "2026-10-12",
+  "uploaded": false,
+  "source_public_package_files_verified": 5162,
+  "source_public_archive_sha256": "348c67c8c5045342144991bb7f9e9d71e9da41daeeae3cf9f4c229721a7dd9ef",
+  "author_names_and_order_consistent": 10,
+  "citation_cff_schema": "CFF 1.2.0; official schema validated by document review",
+  "no_assigned_repository_url_doi_or_release_date": true,
+  "institutional_rights_or_author_roles_invented": false,
+  "python_sources_parse": 6,
+  "workflow_yaml_parses": 2,
+  "workflow_uploads_or_deployments_executed": false,
+  "pages_trigger_is_manual_only": true,
+  "website_stage_uses_explicit_public_paths": true,
+  "standalone_cli_sample": {
+    "station_id": "10700700",
+    "variant": "strict",
+    "rows": 27,
+    "reproduced": true
+  },
+  "largest_file": {
+    "path": "data/retained/all_observations.csv",
+    "bytes": 30049420
+  },
+  "all_files_below_git_100_mib_limit": true,
+  "browser_upload_25_mib_limit_exceeded": true,
+  "recommended_upload_method": "GitHub Desktop or Git from this clean public folder",
+  "legacy_checks_note": "Pre-existing checks document the source public package; github_* checks document this GitHub preparation."
+}

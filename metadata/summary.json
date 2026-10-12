@@ -1,0 +1,21 @@
+{
+  "source_records": 78643,
+  "station_count": 1143,
+  "modeled_stations": 542,
+  "strict_records": 47864,
+  "strict_computed": 25061,
+  "strict_excluded": 30779,
+  "retained_records": 78643,
+  "retained_computed": 41098,
+  "retained_flagged": 38660,
+  "qc_unverified": 40,
+  "frozen_predictions_reproduced": true,
+  "retained_max_absolute_difference": 7.250378075696062e-11,
+  "strict_retained_common_predictions_identical": true,
+  "parameter_refits": 0,
+  "strict_policy": "Exclude any original contributing node/reach overall-quality failure, original node/reach Hampel flag, archived station Hampel flag, or full-series Hampel flag; incomplete QC excluded. Otherwise preserve archived slope logic, including cross-date replacements.",
+  "privacy": "No measured discharge, pairing metadata, observation-level measured errors, or outcome-based flags are included.",
+  "time_basis": "Retrospective archive, 2023-04-06 to 2026-08-31; all times UTC. Cross-date slopes and centered QC do not constitute a prospective test.",
+  "retained_with_labels": 63379,
+  "strict_with_labels": 32600
+}

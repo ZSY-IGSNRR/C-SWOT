@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-12",
+  "uploaded": false,
+  "policy": "Satellite-only overall/Hampel screening, frozen v15 parameters",
+  "accepted_overall_codes": [
+    0,
+    1
+  ],
+  "strict_original_qc_eligible_before_station_full_series": 55231,
+  "strict_final_eligible": 47864,
+  "incomplete_original_qc_records": 40,
+  "slope_policy_after_QC": "Preserve archived positive slope substitution. Negative/missing same-overpass slope alone is not an extra exclusion gate.",
+  "calibration_changed": false,
+  "privacy_note": "No measured-discharge values, pairing labels, observed-error flags, or training performance statistics are released."
+}

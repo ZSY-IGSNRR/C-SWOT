@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 41098,
+  "rtol": 1e-10,
+  "atol": 1e-08,
+  "max_absolute_difference": 7.250378075696062e-11,
+  "common_predictions_identical": true,
+  "strict_excluded_rows_passed_to_model": 0
+}

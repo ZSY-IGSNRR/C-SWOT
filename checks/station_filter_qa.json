@@ -1,0 +1,674 @@
+{
+  "passed": true,
+  "browser": "Isolated headless Chrome contexts; file:// pages; all HTTP(S) requests blocked",
+  "counts": {
+    "total": 1143,
+    "strict": 542,
+    "retained": 542,
+    "both_uncomputed": 601,
+    "actual_strict_zero_retained_positive": 0
+  },
+  "samples": {
+    "both_uncomputed": "101450",
+    "version_boundary": "10700700",
+    "boundary_fixture": true
+  },
+  "cases": [
+    {
+      "name": "zh_strict_default_computed_list_and_map",
+      "passed": true,
+      "language": "zh",
+      "version": "strict",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 符合筛选的站点 · 1143 目录站点"
+    },
+    {
+      "name": "zh_strict_checkbox_all_and_restore",
+      "passed": true,
+      "all": {
+        "language": "zh",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      },
+      "restored": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_strict_uncomputed_station_search_scope",
+      "passed": true,
+      "excluded": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 0,
+        "map_points": 0,
+        "selected": "",
+        "count_text": "0 符合筛选的站点 · 1143 目录站点"
+      },
+      "included": {
+        "language": "zh",
+        "version": "strict",
+        "all": true,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "101450",
+        "count_text": "1 符合筛选的站点 · 1143 目录站点"
+      },
+      "fallback": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_strict_nearest_station_respects_mode",
+      "passed": true,
+      "query_station": "101450",
+      "computed_nearest": "502300",
+      "all_nearest": "101450"
+    },
+    {
+      "name": "zh_strict_version_switch_recomputes_current_scope",
+      "passed": true,
+      "filtered": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      },
+      "all": {
+        "language": "zh",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_retained_default_computed_list_and_map",
+      "passed": true,
+      "language": "zh",
+      "version": "retained",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 符合筛选的站点 · 1143 目录站点"
+    },
+    {
+      "name": "zh_retained_checkbox_all_and_restore",
+      "passed": true,
+      "all": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      },
+      "restored": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_retained_uncomputed_station_search_scope",
+      "passed": true,
+      "excluded": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 0,
+        "map_points": 0,
+        "selected": "",
+        "count_text": "0 符合筛选的站点 · 1143 目录站点"
+      },
+      "included": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "101450",
+        "count_text": "1 符合筛选的站点 · 1143 目录站点"
+      },
+      "fallback": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_retained_nearest_station_respects_mode",
+      "passed": true,
+      "query_station": "101450",
+      "computed_nearest": "502300",
+      "all_nearest": "101450"
+    },
+    {
+      "name": "zh_retained_version_switch_recomputes_current_scope",
+      "passed": true,
+      "filtered": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      },
+      "all": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_no_match_clears_selection_chart_and_table_in_both_modes",
+      "passed": true,
+      "modes": [
+        {
+          "all": false,
+          "cleared": {
+            "selected": "",
+            "chart_children": 0,
+            "table_rows": 0,
+            "stats_children": 0,
+            "title": "没有符合搜索的站点",
+            "coordinate": "",
+            "data_script_exists": false,
+            "download_disabled": true,
+            "prev_disabled": true,
+            "next_disabled": true
+          },
+          "restored": {
+            "language": "zh",
+            "version": "strict",
+            "all": false,
+            "stations": 542,
+            "map_points": 542,
+            "selected": "10700700",
+            "count_text": "542 符合筛选的站点 · 1143 目录站点"
+          }
+        },
+        {
+          "all": true,
+          "cleared": {
+            "selected": "",
+            "chart_children": 0,
+            "table_rows": 0,
+            "stats_children": 0,
+            "title": "没有符合搜索的站点",
+            "coordinate": "",
+            "data_script_exists": false,
+            "download_disabled": true,
+            "prev_disabled": true,
+            "next_disabled": true
+          },
+          "restored": {
+            "language": "zh",
+            "version": "strict",
+            "all": true,
+            "stations": 1143,
+            "map_points": 1143,
+            "selected": "100850",
+            "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zh_excluded_deeplink_falls_back",
+      "passed": true,
+      "language": "zh",
+      "version": "strict",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 符合筛选的站点 · 1143 目录站点"
+    },
+    {
+      "name": "en_strict_default_computed_list_and_map",
+      "passed": true,
+      "language": "en",
+      "version": "strict",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 matching stations · 1143 catalog stations"
+    },
+    {
+      "name": "en_strict_checkbox_all_and_restore",
+      "passed": true,
+      "all": {
+        "language": "en",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "count_text": "1143 matching stations · 1143 catalog stations"
+      },
+      "restored": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_strict_uncomputed_station_search_scope",
+      "passed": true,
+      "excluded": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 0,
+        "map_points": 0,
+        "selected": "",
+        "count_text": "0 matching stations · 1143 catalog stations"
+      },
+      "included": {
+        "language": "en",
+        "version": "strict",
+        "all": true,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "101450",
+        "count_text": "1 matching stations · 1143 catalog stations"
+      },
+      "fallback": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_strict_nearest_station_respects_mode",
+      "passed": true,
+      "query_station": "101450",
+      "computed_nearest": "502300",
+      "all_nearest": "101450"
+    },
+    {
+      "name": "en_strict_version_switch_recomputes_current_scope",
+      "passed": true,
+      "filtered": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      },
+      "all": {
+        "language": "en",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_retained_default_computed_list_and_map",
+      "passed": true,
+      "language": "en",
+      "version": "retained",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 matching stations · 1143 catalog stations"
+    },
+    {
+      "name": "en_retained_checkbox_all_and_restore",
+      "passed": true,
+      "all": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "count_text": "1143 matching stations · 1143 catalog stations"
+      },
+      "restored": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_retained_uncomputed_station_search_scope",
+      "passed": true,
+      "excluded": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 0,
+        "map_points": 0,
+        "selected": "",
+        "count_text": "0 matching stations · 1143 catalog stations"
+      },
+      "included": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "101450",
+        "count_text": "1 matching stations · 1143 catalog stations"
+      },
+      "fallback": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_retained_nearest_station_respects_mode",
+      "passed": true,
+      "query_station": "101450",
+      "computed_nearest": "502300",
+      "all_nearest": "101450"
+    },
+    {
+      "name": "en_retained_version_switch_recomputes_current_scope",
+      "passed": true,
+      "filtered": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      },
+      "all": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 matching stations · 1143 catalog stations"
+      }
+    },
+    {
+      "name": "en_no_match_clears_selection_chart_and_table_in_both_modes",
+      "passed": true,
+      "modes": [
+        {
+          "all": false,
+          "cleared": {
+            "selected": "",
+            "chart_children": 0,
+            "table_rows": 0,
+            "stats_children": 0,
+            "title": "No stations match this search",
+            "coordinate": "",
+            "data_script_exists": false,
+            "download_disabled": true,
+            "prev_disabled": true,
+            "next_disabled": true
+          },
+          "restored": {
+            "language": "en",
+            "version": "strict",
+            "all": false,
+            "stations": 542,
+            "map_points": 542,
+            "selected": "10700700",
+            "count_text": "542 matching stations · 1143 catalog stations"
+          }
+        },
+        {
+          "all": true,
+          "cleared": {
+            "selected": "",
+            "chart_children": 0,
+            "table_rows": 0,
+            "stats_children": 0,
+            "title": "No stations match this search",
+            "coordinate": "",
+            "data_script_exists": false,
+            "download_disabled": true,
+            "prev_disabled": true,
+            "next_disabled": true
+          },
+          "restored": {
+            "language": "en",
+            "version": "strict",
+            "all": true,
+            "stations": 1143,
+            "map_points": 1143,
+            "selected": "100850",
+            "count_text": "1143 matching stations · 1143 catalog stations"
+          }
+        }
+      ]
+    },
+    {
+      "name": "en_excluded_deeplink_falls_back",
+      "passed": true,
+      "language": "en",
+      "version": "strict",
+      "all": false,
+      "stations": 542,
+      "map_points": 542,
+      "selected": "10700700",
+      "count_text": "542 matching stations · 1143 catalog stations"
+    },
+    {
+      "name": "language_switch_preserves_computed_scope_both_directions",
+      "passed": true,
+      "before": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      },
+      "english": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      },
+      "chinese": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "language_switch_preserves_all_scope_both_directions",
+      "passed": true,
+      "before": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      },
+      "english": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 matching stations · 1143 catalog stations"
+      },
+      "chinese": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "101450",
+        "count_text": "1143 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "zh_version_boundary_fixture_selection_and_nearest",
+      "passed": true,
+      "fixture": true,
+      "boundary_station": "10700700",
+      "retained": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      },
+      "strict": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 541,
+        "map_points": 541,
+        "selected": "10803800",
+        "count_text": "541 符合筛选的站点 · 1143 目录站点"
+      },
+      "strict_nearest": "11000700",
+      "retained_query": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 符合筛选的站点 · 1143 目录站点"
+      },
+      "strict_deeplink": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 541,
+        "map_points": 541,
+        "selected": "10803800",
+        "count_text": "541 符合筛选的站点 · 1143 目录站点"
+      }
+    },
+    {
+      "name": "en_version_boundary_fixture_selection_and_nearest",
+      "passed": true,
+      "fixture": true,
+      "boundary_station": "10700700",
+      "retained": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      },
+      "strict": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 541,
+        "map_points": 541,
+        "selected": "10803800",
+        "count_text": "541 matching stations · 1143 catalog stations"
+      },
+      "strict_nearest": "11000700",
+      "retained_query": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "count_text": "542 matching stations · 1143 catalog stations"
+      },
+      "strict_deeplink": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 541,
+        "map_points": 541,
+        "selected": "10803800",
+        "count_text": "541 matching stations · 1143 catalog stations"
+      }
+    }
+  ],
+  "page_errors": [],
+  "fatal_errors": [],
+  "screenshots": [
+    "checks/station_filter_zh.png",
+    "checks/station_filter_en.png"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-12",
+  "default_station_mode": "with_discharge_estimates",
+  "eligibility": "counts[selected_qc_version].computed > 0",
+  "show_all_control": {
+    "zh": "显示全部站点",
+    "en": "Show all stations"
+  },
+  "station_counts": {
+    "all": 1143,
+    "strict": 542,
+    "retained": 542
+  },
+  "applies_to": [
+    "station_list",
+    "map_station_points",
+    "map_station_extent",
+    "nearest_station_query"
+  ],
+  "language_switch_preserves_mode": true,
+  "qc_switch_rechecks_availability": true,
+  "released_observations_and_model_parameters_changed": false
+}

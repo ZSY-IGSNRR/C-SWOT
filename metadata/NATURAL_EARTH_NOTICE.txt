@@ -1,0 +1,7 @@
+Made with Natural Earth.
+Natural Earth physical map data are in the public domain.
+Source: https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/
+Download: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_land.zip
+Terms: https://www.naturalearthdata.com/about/terms-of-use/
+Archive version: 4.1.0
+Only physical land is included. No country boundaries.

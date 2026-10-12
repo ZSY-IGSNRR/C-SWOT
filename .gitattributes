@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Preserve release byte hashes, including across Windows/Linux checkouts.
+* -text
+*.png binary

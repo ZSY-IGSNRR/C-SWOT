@@ -1,0 +1,26 @@
+{
+  "dataset": "Natural Earth 1:110m physical land",
+  "version_in_archive": "4.1.0",
+  "source_download": "https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_land.zip",
+  "source_page": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+  "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "license": "Public domain",
+  "terms_checked_date": "2026-10-12",
+  "attribution": "Made with Natural Earth.",
+  "conversion": "Converted physical land polygons to EPSG:4326 GeoJSON; original geometries retained, properties omitted. No country boundaries, labels or remote raster tiles.",
+  "feature_count": 127,
+  "source_zip_sha256": "1926c621afd6ac67c3f36639bb1236134a48d82226dc675d3e3df53d02d2a3de",
+  "geojson_sha256": "2f11d6964487b0e573e5d4982634d2ac04226738b8cdc315654a952c968b8f26",
+  "geojson_size_bytes": 211358,
+  "archive_geometry_types": [
+    "Polygon"
+  ],
+  "all_geometries_valid": false,
+  "invalid_original_geometries": [
+    {
+      "feature_index": 78,
+      "reason": "Ring Self-intersection[-132.710007884431 54.0400093154234]"
+    }
+  ],
+  "source_geometry_note": "One original source ring self-intersection is preserved. SVG path display does not require polygon topology operations; use topology repair only in derived GIS analyses and record that change."
+}

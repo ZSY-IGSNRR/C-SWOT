@@ -1,0 +1,12 @@
+﻿code,short_label_zh,short_label_en,description_zh,description_en
+quality_anomaly,质量异常,Quality anomaly,原始同次参与节点或河段的总体质量码未通过（仅接受0、1）。,The overall quality code of an original contributing node or same-overpass reach is outside accepted codes 0 and 1.
+wse_anomaly,WSE异常,WSE anomaly,原始节点/同次河段、站点存档或完整卫星序列的WSE Hampel异常。,"A WSE Hampel flag in an original node/reach, archived station screen, or full satellite sequence."
+width_anomaly,宽度异常,Width anomaly,宽度Hampel异常、缺失/非正，或观测宽度与冻结曲线相差超过3倍。只有Hampel异常用于严格排除。,"Width Hampel flag, missing/nonpositive width, or a factor greater than 3 from the frozen curve. Only Hampel flags cause strict exclusion."
+slope_anomaly,坡度异常,Slope anomaly,原始同次坡度或存档输入的Hampel异常，或输入坡度与原率定正坡度参考值相差超过10倍。只有Hampel异常用于严格排除。,"A slope Hampel flag, or input slope differing by a factor greater than 10 from the saved positive reference. Only Hampel flags cause strict exclusion."
+slope_fallback,坡度替补,Slope replacement,同次匹配的坡度缺失或非正时，沿用存档中最近有效正坡度；来源时间可能早于或晚于当前过境，时间差没有最大限制。,"The archive replaces missing/nonpositive same-overpass slope with the nearest available positive reach slope, with no maximum time separation. The source may be earlier or later."
+slope_prior,参考坡度,Slope reference,存档输入坡度缺失或非正时，模型采用该站保存的正坡度参考值；与跨日期卫星坡度替补不同。,"A missing/nonpositive archived slope is replaced by the saved station slope reference, a different operation from cross-date satellite replacement."
+hydraulic_extrapolation,水力外推,Hydraulic extrapolation,WSE低于或高于冻结模型的原率定范围；这是适用域信息，单独出现时不触发严格排除。,WSE is outside the frozen calibration range. This applicability flag alone does not cause strict exclusion.
+area_floor,面积下限,Area floor,WSE位于有效零深度参考以下，流量受有效面积下限控制，需谨慎解释。,WSE is at/below the effective zero-depth reference; the prediction is controlled by the effective area floor.
+qc_unknown,QC未核验,Unverified QC,缺少完整原始同次质量证据；严格版排除，保留版保留并标注。,Complete same-overpass QC evidence is unavailable. Excluded in strict; retained with a flag otherwise.
+invalid_input,输入无效,Invalid input,水位、时间或计算结果不满足有效性要求；记录与具体计算状态保留。,"Invalid/missing WSE, time, or numerical result; the record and calculation status remain explicit."
+no_model,无模型,No model,该站没有保存的站点模型，记录保留，流量估算留空。,No frozen model is available for this station; records remain with no estimated discharge.

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "csv_headers_checked": 2295,
+  "json_files_checked": 553,
+  "station_data_scripts_checked": 2287,
+  "forbidden_data_fields_detected": [],
+  "model_fields_match_allowlist": true,
+  "excluded_table_has_no_prediction_fields": true,
+  "variant_partition_complete": true,
+  "strict_quality_gate_passes": true,
+  "standalone_replay": {
+    "strict": {
+      "rows": 47864,
+      "replayed_predictions": 25061,
+      "max_absolute_difference": 3.637978807091713e-12
+    },
+    "retained": {
+      "rows": 78643,
+      "replayed_predictions": 41098,
+      "max_absolute_difference": 2.9103830456733704e-11
+    }
+  },
+  "runtime": "Python 3.13; numpy 2.3.1; pandas 2.3.1"
+}

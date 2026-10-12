@@ -1,0 +1,423 @@
+{
+  "passed": true,
+  "scope": "Offline repository pages and a project-subpath HTTP preview limited to generated site files. No remote network requests or uploads.",
+  "counts": {
+    "catalog": 1143,
+    "strict": 542,
+    "retained": 542
+  },
+  "cases": [
+    {
+      "name": "generated_site_internal_links_are_relative_and_resolve",
+      "passed": true,
+      "local_links_inspected": 43,
+      "file_name_case_checked": true
+    },
+    {
+      "name": "offline_zh_strict_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "zh",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_zh_retained_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_zh_search_map_and_nearest_scope",
+      "passed": true,
+      "found": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "map_selected": "10803800",
+      "nearest_computed": "502300",
+      "nearest_all": "101450"
+    },
+    {
+      "name": "offline_zh_qc_language_variable_and_filter_preserved",
+      "passed": true,
+      "switched_language": "en",
+      "version": "retained",
+      "variable": "width",
+      "all_station": "101450",
+      "restored": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_zh_loaded_satellite_payload_excludes_measured_Q",
+      "passed": true,
+      "private_keys_found": 0,
+      "fields": 15,
+      "scope": "Loaded representative station payload; full repository privacy audit is separate."
+    },
+    {
+      "name": "offline_zh_copyright_citation_footer",
+      "passed": true,
+      "page": "viewer/zh/about.html",
+      "attribution_visible": true
+    },
+    {
+      "name": "offline_en_strict_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "en",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_en_retained_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_en_search_map_and_nearest_scope",
+      "passed": true,
+      "found": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "map_selected": "10803800",
+      "nearest_computed": "502300",
+      "nearest_all": "101450"
+    },
+    {
+      "name": "offline_en_qc_language_variable_and_filter_preserved",
+      "passed": true,
+      "switched_language": "zh",
+      "version": "retained",
+      "variable": "width",
+      "all_station": "101450",
+      "restored": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "offline_en_loaded_satellite_payload_excludes_measured_Q",
+      "passed": true,
+      "private_keys_found": 0,
+      "fields": 15,
+      "scope": "Loaded representative station payload; full repository privacy audit is separate."
+    },
+    {
+      "name": "offline_en_copyright_citation_footer",
+      "passed": true,
+      "page": "viewer/en/about.html",
+      "attribution_visible": true
+    },
+    {
+      "name": "offline_landing_page_and_rights_footer_navigation",
+      "passed": true,
+      "landing_links": 4,
+      "rights_page": "viewer/zh/about.html",
+      "attribution_visible": true
+    },
+    {
+      "name": "project_http_zh_strict_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "zh",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_zh_retained_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "zh",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_zh_search_map_and_nearest_scope",
+      "passed": true,
+      "found": {
+        "language": "zh",
+        "version": "strict",
+        "all": false,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "map_selected": "10803800",
+      "nearest_computed": "502300",
+      "nearest_all": "101450"
+    },
+    {
+      "name": "project_http_zh_qc_language_variable_and_filter_preserved",
+      "passed": true,
+      "switched_language": "en",
+      "version": "retained",
+      "variable": "width",
+      "all_station": "101450",
+      "restored": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_zh_loaded_satellite_payload_excludes_measured_Q",
+      "passed": true,
+      "private_keys_found": 0,
+      "fields": 15,
+      "scope": "Loaded representative station payload; full repository privacy audit is separate."
+    },
+    {
+      "name": "project_http_zh_copyright_citation_footer",
+      "passed": true,
+      "page": "/swot-public-test/viewer/zh/about.html",
+      "attribution_visible": true
+    },
+    {
+      "name": "project_http_en_strict_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "en",
+        "version": "strict",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_en_retained_default_and_all",
+      "passed": true,
+      "defaults": {
+        "language": "en",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "all": {
+        "language": "en",
+        "version": "retained",
+        "all": true,
+        "stations": 1143,
+        "map_points": 1143,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_en_search_map_and_nearest_scope",
+      "passed": true,
+      "found": {
+        "language": "en",
+        "version": "strict",
+        "all": false,
+        "stations": 1,
+        "map_points": 1,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      },
+      "map_selected": "10803800",
+      "nearest_computed": "502300",
+      "nearest_all": "101450"
+    },
+    {
+      "name": "project_http_en_qc_language_variable_and_filter_preserved",
+      "passed": true,
+      "switched_language": "zh",
+      "version": "retained",
+      "variable": "width",
+      "all_station": "101450",
+      "restored": {
+        "language": "zh",
+        "version": "retained",
+        "all": false,
+        "stations": 542,
+        "map_points": 542,
+        "selected": "10700700",
+        "land_paths": 127,
+        "coordinate": ""
+      }
+    },
+    {
+      "name": "project_http_en_loaded_satellite_payload_excludes_measured_Q",
+      "passed": true,
+      "private_keys_found": 0,
+      "fields": 15,
+      "scope": "Loaded representative station payload; full repository privacy audit is separate."
+    },
+    {
+      "name": "project_http_en_copyright_citation_footer",
+      "passed": true,
+      "page": "/swot-public-test/viewer/en/about.html",
+      "attribution_visible": true
+    },
+    {
+      "name": "project_http_landing_page_and_rights_footer_navigation",
+      "passed": true,
+      "landing_links": 4,
+      "rights_page": "/swot-public-test/viewer/zh/about.html",
+      "attribution_visible": true
+    }
+  ],
+  "page_errors": [],
+  "http_failures": [],
+  "blocked_remote_requests": [],
+  "screenshots": [
+    "github_viewer_zh_wide.png",
+    "github_viewer_en_narrow.png",
+    "github_rights_wide.png"
+  ]
+}

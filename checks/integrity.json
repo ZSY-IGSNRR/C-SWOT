@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "archive_rows": 78643,
+  "strict_rows": 47864,
+  "excluded_rows": 30779,
+  "row_partition_complete": true,
+  "common_predictions_identical": true,
+  "strict_quality_gate_passed": true,
+  "strict_excluded_model_calls": 0,
+  "unique_row_identifiers": true,
+  "source_qc_map_checked": true
+}
